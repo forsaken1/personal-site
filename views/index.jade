@@ -1,0 +1,349 @@
+doctype html
+//if lt IE 7 
+  html.ie.ie6.no-js(lang='en')  
+//if IE 7 
+  html.ie.ie7.no-js(lang='en')  
+//if IE 8 
+  html.ie.ie8.no-js(lang='en')  
+//if IE 9 
+  html.ie.ie9.no-js(lang='en')  
+// [if gt IE 9] <!
+html.no-js(lang='en')
+  // <![endif]
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+    title Krylov Alexey
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    // main style
+    link(rel='stylesheet', type='text/css', media='screen', href='css/bootstrap.css')
+    link(rel='stylesheet', type='text/css', media='screen', href='css/style.css')
+    // background slider style
+    link(rel='stylesheet', type='text/css', href='css/slideshow.css')
+    // google font style
+    link(href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300', rel='stylesheet', type='text/css')
+    // font-family: 'Open Sans', sans-serif;
+    // font css style
+    link(rel='stylesheet', href='css/font-awesome.css')
+    // for slider style
+    noscript
+      link(rel='stylesheet', type='text/css', href='css/fallback.css')
+    //if lt IE 9
+      link(rel='stylesheet', type='text/css', href='css/fallback.css')
+  body
+    // wrapper start
+    #wrapper.wrapper
+      header
+        // banner start
+        #banner.banner.row
+          .col-xs-12.col-sm-12.col-md-12.col-lg-12.noPadd(style='height:100%')
+            // background slide show start
+            .bannerPart
+              img.bannerImg(src='http://placehold.it/1600x900&text=image1', alt='')
+            // background slide show end
+        // banner end
+        .bannerText.container
+          h1 I'm Krylov Alexey
+          h2 Ruby on Rails backend developer
+        // menu start
+        .menu
+          .navbar-wrapper
+            .container
+              .navwrapper
+                .navbar.navbar-inverse.navbar-static-top
+                  .container
+                    .navbar-header
+                      button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+                        span.icon-bar
+                        span.icon-bar
+                        span.icon-bar
+                      a.navbar-brand(href='#') Меню
+                    .navbar-collapse.collapse
+                      ul.nav.navbar-nav
+                        li.menuItem.active
+                          a(href='#wrapper') Начало
+                        li.menuItem
+                          a(href='#aboutme') Обо мне
+                        li.menuItem
+                          a(href='#technical') Навыки
+                        li.menuItem
+                          a(href='#exprience') Опыт
+                        li.menuItem
+                          a(href='#education') Образование
+                        li.menuItem
+                          a(href='#protfolio') Портфолио
+                        li.menuItem
+                          a(href='#contact') Контакты
+              // End Navbar
+        // menu end
+      // about me start
+      section#aboutme.aboutme
+        .container
+          .heading
+            h2 Обо мне
+            p A small introduction about my self
+          .row
+            .col-xs-12.col-sm-12.col-md-7.col-lg-7
+              h3 Крылов Алексей
+              h4.subHeading Ruby on Rails backend-разработчик
+              p
+                | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.  cillum dolore eu fugiat nulla pariatur. olore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              p
+                | nulla pariatur.uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. olore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              a.bntDownload(href='#') Download Printable Resume
+            .col-xs-12.col-sm-12.col-md-4.col-lg-4.col-md-offset-1.col-lg-offset-1.proPic
+              img.img-circle.topmar(src='http://placehold.it/295x295&text=image1', alt='')
+      // about me end
+      // technical start
+      section#technical.technical
+        .container
+          .heading
+            h2 Технические навыки
+            p I can say i’m quite good at
+          .row
+            .col-xs-12.col-sm-4.col-md-4.col-lg-4.skillsArea
+              .col-xs-12.col-sm-6.col-md-6.col-lg-6.skills
+                span.chart.skilBg(data-percent='90')
+                  span.percent
+                h4 Ruby/Rails
+                p Donec accumsan ligula vitae mag na curabitur id
+            .col-xs-12.col-sm-4.col-md-4.col-lg-4.skillsArea
+              .col-xs-12.col-sm-6.col-md-6.col-lg-6.skills
+                span.chart.skilBg(data-percent='80')
+                  span.percent
+                h4 Javascript
+                p Donec accumsan ligula vitae mag na curabitur id
+            .col-xs-12.col-sm-4.col-md-4.col-lg-4.skillsArea
+              .col-xs-12.col-sm-6.col-md-6.col-lg-6.skills
+                span.chart.skilBg(data-percent='80')
+                  span.percent
+                h4 HTML & CSS
+                p Donec accumsan ligula vitae mag na curabitur id
+            .col-xs-12.col-sm-4.col-md-4.col-lg-4.skillsArea
+              .col-xs-12.col-sm-6.col-md-6.col-lg-6.skills
+                span.chart.skilBg(data-percent='75')
+                  span.percent
+                h4 PHP/Laravel
+                p Donec accumsan ligula vitae mag na curabitur id
+            //
+              <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+              <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 skills"> <span class="chart skilBg" data-percent="60"> <span class="percent"></span> </span>
+              <h4>jQuery</h4>
+              <p>Donec accumsan ligula vitae mag na curabitur id</p>
+              </div>
+              </div>
+              <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+              <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 skills"> <span class="chart skilBg" data-percent="65"> <span class="percent"></span> </span>
+              <h4>PHP / MySQL</h4>
+              <p>Donec accumsan ligula vitae mag na curabitur id</p>
+              </div>
+              </div>
+      // technical end
+      // exprience start
+      section#exprience.exprience
+        .container
+          .heading
+            h2 Опыт работы
+            p My previous associations
+          .row.workDetails
+            .col-xs-12.col-sm-3.col-md-2.col-lg-2
+              .workYear
+                | Декабрь 2014
+                br
+                |             Present
+            .col-xs-12.col-sm-9.col-md-10.col-lg-10.rightArea
+              .arrowpart
+              .exCon
+                h4 Farpost Design
+                h5 Ruby on Rails backend разработчик
+                p
+                  | Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quom placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui faorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.
+          .row.workDetails
+            .col-xs-12.col-sm-3.col-md-2.col-lg-2
+              .workYear
+                | Август 2013
+                br
+                |             Ноябрь 2014
+            .col-xs-12.col-sm-9.col-md-10.col-lg-10.rightArea
+              .arrowpart
+              .exCon
+                h4 Espley Ltd.
+                h5 PHP backend разработчик
+                p
+                  | Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quom placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui faorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.
+          .row.workDetails
+            .col-xs-12.col-sm-3.col-md-2.col-lg-2
+              .workYear
+                | Март 2013
+                br
+                |             Май 2013
+            .col-xs-12.col-sm-9.col-md-10.col-lg-10.rightArea
+              .arrowpart
+              .exCon
+                h4 Saitex
+                h5 Web-разработчик
+                p
+                  | Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quom placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui faorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.
+      // exprience end
+      // education start
+      section#education.education
+        .container
+          .heading
+            h2 Образование
+            p What I have done in my academic career
+          .row.workDetails
+            .col-xs-12.col-sm-3.col-md-2.col-lg-2
+              .workYear Июнь 2015
+            .col-xs-12.col-sm-9.col-md-10.col-lg-10.rightArea
+              .arrowpart
+              .exCon
+                h4 Диплом по специальности "Прикладная математика и информатика"
+                h5 ДВФУ
+                p
+                  | Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quom placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui faorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.
+      // education end
+      // protfolio start
+      section#protfolio.protfolio
+        .container
+          .heading
+            h2 Портфолио
+            p showcase of my latest works
+          .portfolioFilter
+            ul
+              li
+                a.current(href='#', data-filter='*') Все
+              li
+                a(href='#', data-filter='.photos') Сервисы
+              //li
+              //  a(href='#', data-filter='.branding') Branding
+              //li
+              //  a(href='#', data-filter='.illustration') Illustration
+          ul.portfolioContainer.row
+            li.photos.col-xs-6.col-sm-4.col-md-3.col-lg-3
+              .lightCon
+                span.hoverBox
+                  span.smallIcon
+                    a.zoom.lb.lb_warsaw1(rel='lightbox-demo', href='images/portfolio/big/1.jpg', title='Project Title1')
+                      i.fa.fa-search.fa-2x
+                    a.linKed(href='#', title='Project Link', target='_blank')
+                      i.fa.fa-link.fa-2x
+                img(src='http://placehold.it/450x450&text=image1', alt='')
+      // protfolio end
+      // contact start
+      section#contact.contact
+        //.container.topCon
+        //  .heading
+        //    h2 Get In Touch
+        //    p Please feel free if you would like to have a chat.
+        //.row.mapArea
+        //  iframe(frameborder='0', scrolling='no', marginheight='0', marginwidth='0', src='https://maps.google.com/?ie=UTF8&ll=-37.817682,144.957595&spn=0.01134,0.026157&t=m&z=16&output=embed')
+      section.contactDetails
+        .container
+          // contact info start
+          .col-xs-12.col-sm-3.col-md-4.col-lg-4
+            h4 Contact details
+            p
+              i.fa.fa-map-marker.fa-lg
+              |  Collins Street West Victoria 8007 Australia
+            p
+              i.fa.fa-mobile.fa-lg
+              |  +1800 1234 56789
+            p
+              i.fa.fa-envelope-o
+              a(href='mailto:support@websitename.com') support@websitename.com
+            p
+              i.fa.fa-link
+              a(href='www.websitename.com') www.websitename.com
+          // contact info end
+          // contact form start
+          .col-xs-12.col-sm-9.col-md-8.col-lg-8.conForm
+            h4 Shoot a message!
+            #message
+            form#cform(method='post', action='php/contact.php', name='cform')
+              input#name.col-xs-12.col-sm-6.col-md-6.col-lg-6(name='name', type='text', placeholder='Your name...')
+              input#email.col-xs-12.col-sm-6.col-md-6.col-lg-6.noMarr(name='email', type='email', placeholder='Your email...')
+              textarea#comments.col-xs-12.col-sm-12.col-md-12.col-lg-12(name='comments', cols='', rows='', placeholder='Your message...')
+              input#submit.submitBnt(type='submit', name='send', value='Send message')
+              #simple-msg
+          // contact form end
+      // contact end
+      // footer start
+      section#footer.footer
+        .container
+          ul
+            li
+              a(href='#')
+                i.fa.fa-twitter.fa-2x
+            li
+              a(href='#')
+                i.fa.fa-facebook.fa-2x
+            li
+              a(href='#')
+                i.fa.fa-linkedin.fa-2x
+            li
+              a(href='#')
+                i.fa.fa-pinterest.fa-2x
+            li
+              a(href='#')
+                i.fa.fa-dribbble.fa-2x
+            li
+              a(href='#')
+                i.fa.fa-rss.fa-2x
+      // footer end
+    // wrapper end
+    // modernizr js
+    script(type='text/javascript', src='js/modernizr.custom.26633.js')
+    // jquary min js
+    script(type='text/javascript', src='js/jquery.min.js')
+    script(src='js/bootstrap.js')
+    script(type='text/javascript', src='js/jquery.gridrotator.js')
+    // for custom jquary
+    script(src='js/custom.js')
+    // for placeholder jquary
+    script(type='text/javascript', src='js/jquery.placeholder.js')
+    // for menu jquary
+    script(type='text/javascript', src='js/stickUp.js')
+    script(type='text/javascript').
+      jQuery(function($) {
+      $(document).ready( function() {
+      //enabling stickUp on the '.navbar-wrapper' class
+      $('.navbar-wrapper').stickUp({
+      parts: {
+      0: 'banner',
+      1: 'aboutme',
+      2: 'technical',
+      3: 'exprience',
+      4: 'education',
+      5: 'protfolio',
+      6: 'contact'
+      },
+      itemClass: 'menuItem',
+      itemHover: 'active',
+      topMargin: 'auto'
+      });
+      });
+      $( ".navbar.navbar-inverse.navbar-static-top a" ).click(function() {
+      $( ".navbar-collapse" ).addClass( "hideClass" );
+      });
+      $( ".navbar.navbar-inverse.navbar-static-top a" ).click(function() {
+      $( ".navbar-collapse" ).addClass( "collapse" );
+      });
+      $( ".navbar.navbar-inverse.navbar-static-top a" ).click(function() {
+      $( ".navbar-collapse" ).removeClass( "in" );
+      });
+      $( ".navbar-toggle" ).click(function() {
+      $( ".navbar-collapse" ).removeClass( "hideClass" );
+      });
+      });
+    // for portfoli filter jquary
+    script(src='js/jquery.isotope.js', type='text/javascript')
+    // for portfoli lightbox
+    link#theme(type='text/css', rel='stylesheet', href='css/jquery-ui-1.8.16.custom.css')
+    link(type='text/css', rel='stylesheet', href='css/lightbox.min.css')
+    script(type='text/javascript', src='js/jquery.ui.widget.min.js')
+    script(type='text/javascript', src='js/jquery.ui.rlightbox.js')
+    // for skill chat jquary
+    script(src='js/jquery.easing.min.js')
+    script(src='js/jquery.easypiechart.js')
+    // contact form js
+    script(type='text/javascript', src='js/jquery.contact.js')

@@ -6,6 +6,6 @@
 
 ```
 bundle
-ruby app.rb
-chrome-browser http://localhost:4567
+ruby app.rb # run in development
+thin start -d -p 3000 -R config.ru # run in production
 ```

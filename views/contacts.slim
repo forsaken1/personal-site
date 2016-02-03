@@ -8,7 +8,7 @@ section#contact.contact
 section.contactDetails
   .container
     .col-xs-12.col-sm-3.col-md-4.col-lg-4
-      h4 Контакты
+      h4 Contacts
       //p
       //  i.fa.fa-map-marker.fa-lg
       //  |  Collins Street West Victoria 8007 Australia
@@ -22,12 +22,12 @@ section.contactDetails
         i.fa.fa-link
         a href='http://krylov-alexey.ru' krylov-alexey.ru
 
-    .col-xs-12.col-sm-9.col-md-8.col-lg-8.conForm
-      h4 Отправить сообщение
+    /.col-xs-12.col-sm-9.col-md-8.col-lg-8.conForm
+      h4 Send message
       #message
       form#cform method='post' action='php/contact.php' name='cform'
-        input#name.col-xs-12.col-sm-6.col-md-6.col-lg-6 name='name' type='text' placeholder='Ваше имя...'
-        input#email.col-xs-12.col-sm-6.col-md-6.col-lg-6.noMarr name='email' type='email' placeholder='Ваш email...'
-        textarea#comments.col-xs-12.col-sm-12.col-md-12.col-lg-12 name='comments' cols='' rows='' placeholder='Ваше сообщение...'
-        input#submit.submitBnt type='submit' name='send' value='Отправить сообщение'
+        input#name.col-xs-12.col-sm-6.col-md-6.col-lg-6 name='name' type='text' placeholder='Your name...'
+        input#email.col-xs-12.col-sm-6.col-md-6.col-lg-6.noMarr name='email' type='email' placeholder='Your email...'
+        textarea#comments.col-xs-12.col-sm-12.col-md-12.col-lg-12 name='comments' cols='' rows='' placeholder='Your message...'
+        input#submit.submitBnt type='submit' name='send' value='Send'
         #simple-msg

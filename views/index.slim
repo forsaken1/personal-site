@@ -1,14 +1,15 @@
-header
-  == slim :banner
-  .bannerText.container
-    h1 Krylov Alexey
-    /h2 backend разработчик
+== slim :header
 
-  == slim :menu
+.container.sections-wrapper
+  .row
+    .primary.col-md-8.col-sm-12.col-xs-12
+      == slim :about_me
+      == slim :latest
+      == slim :projects
+      == slim :experience
+      == slim :github
 
-== slim :about_me
-== slim :tech
-== slim :experience
-== slim :education
-== slim :portfolio
-== slim :contacts
+    .secondary.col-md-4.col-sm-12.col-xs-12
+      == slim :basic
+      == slim :skills
+      == slim :education

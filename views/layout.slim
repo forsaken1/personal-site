@@ -1,25 +1,6 @@
 doctype html
-/![if IE 8] <html lang="en" class="ie8"
-/![if IE 9] <html lang="en" class="ie9"
-/! [if !IE]><!
-html lang="en" 
-  /! <![endif]
+html lang="en"
   == slim :head
   body
-    == slim :header
-
-    .container.sections-wrapper
-      .row
-        .primary.col-md-8.col-sm-12.col-xs-12
-          == slim :about_me
-          == slim :latest
-          == slim :projects
-          == slim :experience
-          == slim :github
-
-        .secondary.col-md-4.col-sm-12.col-xs-12
-          == slim :basic
-          == slim :skills
-          == slim :education
-
+    == yield
     == slim :footer

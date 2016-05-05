@@ -3,12 +3,19 @@ aside.skills.aside.section
     h2.heading Skills
     .content
       /p.intro
-        | Intro about your skills goes here. Keep the list lean and only show your primary skillset. You can always provide a link to your Linkedin or Coderwall profile so people can get more info there.
+        | Intro
       .skillset
         .item
           h3.level-title
             | Ruby/Rails
-            span.level-label data-animation="true" data-placement="left" data-toggle="tooltip" title=("You can use the tooltip to add more info...")  Expert
+            /span.level-label data-animation="true" data-placement="left" data-toggle="tooltip" title=("You can use the tooltip to add more info...")  Expert
+          .level-bar
+            .level-bar-inner data-level="80%"
+
+        .item
+          h3.level-title
+            | RSpec/TDD
+            /span.level-label Pro
           .level-bar
             .level-bar-inner data-level="80%"
 
@@ -22,32 +29,20 @@ aside.skills.aside.section
         .item
           h3.level-title
             | Javascript/CoffeeScript
-            span.level-label Expert
+            /span.level-label Expert
           .level-bar
             .level-bar-inner data-level="60%"
 
         .item
           h3.level-title
             | HTML & CSS
-            span.level-label Pro
+            /span.level-label Pro
           .level-bar
             .level-bar-inner data-level="40%"
 
         .item
           h3.level-title
-            | Rspec/TDD
-            span.level-label Pro
-          .level-bar
-            .level-bar-inner data-level="80%"
-
-        .item
-          h3.level-title
             | Android
-            span.level-label Pro
+            /span.level-label Pro
           .level-bar
             .level-bar-inner data-level="30%"
-
-        /p
-          a.more-link href="#" 
-            i.fa.fa-external-link
-            | More on Coderwall

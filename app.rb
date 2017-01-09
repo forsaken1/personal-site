@@ -3,6 +3,6 @@ require 'slim'
 require 'yaml'
 
 get '/' do
-  @config = YAML.load(ERB.new(File.read('config/config.yml')).result)
+  @content = YAML.load(ERB.new(File.read('config/content.yml')).result)
   slim :index
 end

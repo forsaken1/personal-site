@@ -5,7 +5,7 @@ aside.skills.aside.section
       /p.intro
         | Intro
       .skillset
-        - @config['skills'].each do |skill|
+        - @content['skills'].each do |skill|
           .item
             h3.level-title
               = skill['title']

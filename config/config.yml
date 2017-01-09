@@ -1,0 +1,71 @@
+other_projects:
+  - title: ru.crystal-lang.org
+    summary: Russian translation crystal-lang.org
+    external_link: http://ru.crystal-lang.org
+    github_link: https://github.com/crystal-lang-ru/crystal-lang-ru.github.io
+
+  - title: SocketIO.cr for Crystal language
+    summary: Small analog socket.io.js
+    github_link: https://github.com/forsaken1/socket-io.cr
+
+  - title: Collider.cr for Crystal language
+    summary: Library with realization of Separating Axis Theorem for collisions calculations
+    github_link: https://github.com/forsaken1/collider.cr
+
+  - title: ActiveadminLatLng
+    summary: Active Admin plugin for setting up latitude and longitude
+    github_link: https://github.com/forsaken1/activeadmin-latlng
+
+jobs:
+  - title: Backend developer
+    date_start: November 2016
+    date_stop: Present
+    link_title: mvpngn.com
+    link_url: http://mvpngn.com
+    summary: Remote work. Ruby on Rails.
+
+  - title: Backend developer
+    date_start: December 2014
+    date_stop: December 2016
+    link_title: Farpost Design
+    link_url: http://design.farpost.ru
+    summary: Develop commercial applications on Ruby on Rails.
+
+  - title: Backend developer
+    date_start: August 2013
+    date_stop: November 2014
+    link_title: Espley Ltd
+    link_url: http://espley.ru
+    summary: "I engaged in the development of backend, more than a year working with the framework Laravel on commercial projects."
+
+  - title: Web-developer
+    date_start: March 2013
+    date_stop: May 2013
+    link_title: Saitex
+    link_url: http://saitex.ru
+    summary: First work experience.
+
+skills:
+  - title: Rails/Ruby
+    progress: 90%
+
+  - title: RSpec/TDD
+    progress: 90%
+
+  - title: Crystal
+    progress: 70%
+
+  - title: Laravel/PHP
+    progress: 60%
+
+  - title: Frontend/Javascript
+    progress: 40%
+
+  - title: HTML & CSS
+    progress: 40%
+
+  - title: Phoenix/Elixir
+    progress: 30%
+
+  - title: Android/Java
+    progress: 30%

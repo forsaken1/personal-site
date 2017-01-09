@@ -2,42 +2,13 @@ section.experience.section
   .section-inner
     h2.heading Work Experience
     .content
-      .item
-        h3.title
-          | Backend developer - 
-          span.place
-            a href="http://mvpngn.com" target="_blank"
-              | mvpngn.com
-          span.year
-            |  (November 2016 - Present)
-        p Remote work. Ruby on Rails.
-
-      .item
-        h3.title
-          | Backend developer - 
-          span.place
-            a href="http://design.farpost.ru" target="_blank"
-              | Farpost Design
-          span.year
-            |  (December 2014 - December 2016)
-        p Develop commercial applications on Ruby on Rails.
-
-      .item
-        h3.title
-          | Backend developer - 
-          span.place
-            a href="http://espley.ru" target="_blank"
-              | Espley Ltd
-          span.year
-            |  (August 2013 - November 2014)
-        p I engaged in the development of backend, more than a year working with the framework Laravel on commercial projects.
-
-      .item
-        h3.title
-          | Web-developer - 
-          span.place
-            a href="http://saitex.ru" target="_blank"
-              | Saitex
-          span.year
-            |  (March 2013 - May 2013)
-        p First work experience.
+      - @config['jobs'].each do |experience|
+        .item
+          h3.title
+            | #{experience['title']} - 
+            span.place
+              a href="#{experience['link_url']}" target="_blank"
+                = experience['link_title']
+            span.year
+              |  (#{experience['date_start']} - #{experience['date_stop']})
+          p = experience['summary']

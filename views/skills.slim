@@ -5,57 +5,10 @@ aside.skills.aside.section
       /p.intro
         | Intro
       .skillset
-        .item
-          h3.level-title
-            | Rails/Ruby
-            /span.level-label data-animation="true" data-placement="left" data-toggle="tooltip" title=("You can use the tooltip to add more info...")  Expert
-          .level-bar
-            .level-bar-inner data-level="90%"
-
-        .item
-          h3.level-title
-            | RSpec/TDD
-            /span.level-label Pro
-          .level-bar
-            .level-bar-inner data-level="90%"
-
-        .item
-          h3.level-title
-            | Crystal
-          .level-bar
-            .level-bar-inner data-level="70%"
-
-        .item
-          h3.level-title
-            | Laravel/PHP
-            /span.level-label Expert
-          .level-bar
-            .level-bar-inner data-level="60%"
-
-        .item
-          h3.level-title
-            | Frontend/Javascript
-            /span.level-label Expert
-          .level-bar
-            .level-bar-inner data-level="60%"
-
-        .item
-          h3.level-title
-            | HTML & CSS
-            /span.level-label Pro
-          .level-bar
-            .level-bar-inner data-level="40%"
-
-        .item
-          h3.level-title
-            | Phoenix/Elixir
-            /span.level-label Pro
-          .level-bar
-            .level-bar-inner data-level="30%"
-
-        .item
-          h3.level-title
-            | Android/Java
-            /span.level-label Pro
-          .level-bar
-            .level-bar-inner data-level="30%"
+        - @config['skills'].each do |skill|
+          .item
+            h3.level-title
+              = skill['title']
+              /span.level-label data-animation="true" data-placement="left" data-toggle="tooltip" title=("You can use the tooltip to add more info...")  Expert
+            .level-bar
+              .level-bar-inner data-level="#{skill['progress']}"

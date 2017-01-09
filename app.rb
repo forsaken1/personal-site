@@ -1,9 +1,8 @@
 require 'sinatra'
 require 'slim'
 require 'yaml'
-require 'byebug'
 
 get '/' do
-  @config = YAML.load_file('config/config.yml')
+  @config = YAML.load(ERB.new(File.read('config/config.yml')).result)
   slim :index
 end

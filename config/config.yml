@@ -47,6 +47,8 @@ jobs:
 
 skills:
   - title: Rails/Ruby
+    tooltip_title: <%= date1 = Date.new(2014, 1, 30); date2 = Date.today; "#{date2.year - date1.year} years #{date2.month - date1.month} months" %>
+    tooltip_body: Middle
     progress: 90%
 
   - title: RSpec/TDD

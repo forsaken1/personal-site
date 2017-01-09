@@ -9,6 +9,7 @@ aside.skills.aside.section
           .item
             h3.level-title
               = skill['title']
-              /span.level-label data-animation="true" data-placement="left" data-toggle="tooltip" title=("You can use the tooltip to add more info...")  Expert
+              - if skill['tooltip_body']
+                span.level-label data-animation="true" data-placement="left" data-toggle="tooltip" title="#{skill['tooltip_title']}" = skill['tooltip_body']
             .level-bar
               .level-bar-inner data-level="#{skill['progress']}"

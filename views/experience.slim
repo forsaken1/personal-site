@@ -2,6 +2,10 @@ section.experience.section
   .section-inner
     h2.heading Work Experience
     .content
+      p.intro
+        - calculate_experience(@content['jobs']) do |years, months|
+          = "#{years} years #{months} months"
+
       - @content['jobs'].each do |experience|
         .item
           h3.title

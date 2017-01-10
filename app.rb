@@ -1,7 +1,6 @@
 require 'sinatra'
 require 'slim'
 require 'yaml'
-require 'byebug'
 
 def calculate_experience jobs
   months, years = 0, 0

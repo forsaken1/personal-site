@@ -1,4 +1,9 @@
 other_projects:
+  - title: Uphill rating
+    summary: Application with rating of bicyclists. Developed with Elixir/Phoenix
+    external_link: http://uphill.krylov-alexey.ru
+    github_link: https://github.com/forsaken1/uphill-rating
+
   - title: ru.crystal-lang.org
     summary: Russian translation crystal-lang.org
     external_link: http://ru.crystal-lang.org
@@ -22,14 +27,14 @@ jobs:
     date_stop: Present
     link_title: mvpngn.com
     link_url: http://mvpngn.com
-    summary: Remote work. Ruby on Rails.
+    summary: Remote work. Developing commercial applications for foreign customers.
 
   - title: Backend developer
     date_start: December 2014
     date_stop: December 2016
     link_title: Farpost Design
     link_url: http://design.farpost.ru
-    summary: Develop commercial applications on Ruby on Rails.
+    summary: Developed commercial applications on Ruby on Rails. Also I developed CMS for company using Rails Engines. 
 
   - title: Backend developer
     date_start: August 2013
@@ -43,7 +48,7 @@ jobs:
     date_stop: May 2013
     link_title: Saitex
     link_url: http://saitex.ru
-    summary: First work experience.
+    summary: First work experience. Worked with CMS Joomla.
 
 skills:
   - title: Rails/Ruby
@@ -51,23 +56,25 @@ skills:
     tooltip_body: Middle
     progress: 90%
 
-  - title: RSpec/TDD
+  - title: RSpec/TDD/BDD
     progress: 90%
 
   - title: Crystal
     progress: 70%
 
-  - title: Laravel/PHP
+  - title: Phoenix/Elixir
     progress: 60%
 
-  - title: Frontend/Javascript
-    progress: 40%
+  - title: Javascript
+    progress: 50%
 
   - title: HTML & CSS
     progress: 40%
 
-  - title: Phoenix/Elixir
+  - title: Android/Java
     progress: 30%
 
-  - title: Android/Java
+  - title: English language
+    tooltip_title: Reading/Writing
+    tooltip_body: Basic
     progress: 30%

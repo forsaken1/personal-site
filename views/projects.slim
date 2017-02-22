@@ -1,13 +1,11 @@
 section.projects.section
   .section-inner
-    h2.heading Other Projects
+    h2.heading Opensource Projects
     .content
       - @content['other_projects'].each do |project|
         .item
           h3.title
             = project['title']
-            | &nbsp;
-            span.label.label-theme Open Source
           p.summary = project['summary']
           p
             - if project['external_link']

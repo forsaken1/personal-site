@@ -1,4 +1,9 @@
 other_projects:
+  - title: Triathlets
+    summary: Application with results from triathlons. Developed with Crystal/Amber
+    external_link: http://triathlets.krylov-alexey.ru
+    github_link: https://github.com/forsaken1/triathlets
+
   - title: Uphill rating
     summary: Application with rating of bicyclists. Developed with Elixir/Phoenix
     external_link: http://uphill.krylov-alexey.ru
@@ -34,7 +39,7 @@ jobs:
     date_stop: December 2016
     link_title: Farpost Design
     link_url: http://design.farpost.ru
-    summary: Developed commercial applications on Ruby on Rails. Also I developed CMS for company using Rails Engines. 
+    summary: Ruby on Rails developer. We have developed complicated websites for leading brands in Far East of russia. Also I developed CMS for company using Rails Engines. 
 
   - title: Backend developer
     date_start: August 2013
@@ -48,7 +53,7 @@ jobs:
     date_stop: May 2013
     link_title: Saitex
     link_url: http://saitex.ru
-    summary: First work experience. Worked with CMS Joomla.
+    summary: First work experience. Worked with CMS Joomla and custom PHP engine.
 
 skills:
   - title: Rails/Ruby

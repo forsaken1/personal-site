@@ -1,0 +1,23 @@
+section.projects.section
+  .section-inner
+    h2.heading Opensource Projects
+    .content
+      - @content['other_projects'].each do |project|
+        .item
+          h3.title
+            = project['title']
+          p.summary = project['summary']
+          p
+            - if project['external_link']
+              a.more-link href="#{project['external_link']}" target="_blank" 
+                i.fa.fa-external-link
+                | Find out more 
+
+            - if project['github_link']
+              a.more-link href="#{project['github_link']}" target="_blank"
+                i.fa.fa-external-link
+                | View on GitHub
+
+      a.btn.btn-cta-secondary href="https://github.com/forsaken1?tab=repositories" target="_blank"
+        | More on Github&nbsp;
+        i.fa.fa-chevron-right

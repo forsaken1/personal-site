@@ -58,7 +58,7 @@ jobs:
 skills:
   - title: Rails/Ruby
     tooltip_title: <%= date1 = Date.new(2014, 1, 30); date2 = Date.today; "#{date2.year - date1.year} years #{date2.month - date1.month} months" %>
-    tooltip_body: Middle
+    tooltip_body: Senior
     progress: 90%
 
   - title: RSpec/TDD/BDD
@@ -80,6 +80,6 @@ skills:
     progress: 30%
 
   - title: English language
-    tooltip_title: Reading/Writing
-    tooltip_body: Basic
-    progress: 30%
+    tooltip_title: Reading/Writing/Speaking
+    tooltip_body: Conversational
+    progress: 50%

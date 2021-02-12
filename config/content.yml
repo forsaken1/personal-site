@@ -27,8 +27,8 @@ other_projects:
     github_link: https://github.com/forsaken1/activeadmin-latlng
 
 jobs:
-  - title: Backend developer
-    date_start: December 2016
+  - title: Full-stack developer
+    date_start: November 2016
     date_stop: Present
     link_title: mvpngn.com
     link_url: http://mvpngn.com
@@ -64,20 +64,17 @@ skills:
   - title: RSpec/TDD/BDD
     progress: 90%
 
-  - title: Crystal
-    progress: 70%
-
-  - title: Phoenix/Elixir
-    progress: 60%
-
-  - title: Javascript
-    progress: 50%
+  - title: Javascript, React.js
+    progress: 90%
 
   - title: HTML & CSS
-    progress: 50%
+    progress: 80%
 
-  - title: Android/Java
-    progress: 30%
+  - title: Crystal
+    progress: 66%
+
+  - title: Phoenix/Elixir
+    progress: 66%
 
   - title: English language
     tooltip_title: Reading/Writing/Speaking

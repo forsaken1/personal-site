@@ -32,43 +32,46 @@ jobs:
     date_stop: Present
     link_title: mvpngn.com
     link_url: http://mvpngn.com
-    summary: Remote work. Developing commercial applications for foreign customers.
+    summary: "I've started to work remotely as Full-stack developer and to contact with foreign clients. 
+    Last several years I'm developing Single Page Applications on all levels from API and building of server infrastructure to applying of adaptive design"
 
   - title: Backend developer
     date_start: December 2014
     date_stop: December 2016
     link_title: Farpost Design
     link_url: http://design.farpost.ru
-    summary: Ruby on Rails developer. We have developed complicated websites for leading brands in Far East of russia. Also I developed CMS for company using Rails Engines. 
+    summary: "I've learned Ruby on Rails and have found a job as Ruby backend developer. 
+    We've developed complicated webapps for leading brands in Far East of russia. 
+    Also I've developed modular CMS for the company using Rails Engines. "
 
   - title: Backend developer
     date_start: August 2013
     date_stop: November 2014
     link_title: Espley Ltd
     link_url: http://espley.ru
-    summary: "I engaged in the development of backend, more than a year working with the framework Laravel on commercial projects."
+    summary: "I engaged in the development of backend, I worked more than a year with Laravel framework on commercial projects."
 
   - title: Web-developer
     date_start: March 2013
     date_stop: May 2013
     link_title: Saitex
     link_url: http://saitex.ru
-    summary: First work experience. Worked with CMS Joomla and custom PHP engine.
+    summary: First experience. I worked with CMS Joomla and custom PHP engine.
 
 skills:
   - title: Rails/Ruby
     tooltip_title: <%= date1 = Date.new(2014, 1, 30); date2 = Date.today; "#{date2.year - date1.year} years #{date2.month - date1.month} months" %>
     tooltip_body: Senior
-    progress: 90%
+    progress: 95%
 
   - title: RSpec/TDD/BDD
-    progress: 90%
+    progress: 95%
 
   - title: Javascript, React.js
-    progress: 90%
+    progress: 95%
 
   - title: HTML & CSS
-    progress: 80%
+    progress: 90%
 
   - title: Crystal
     progress: 66%
@@ -77,6 +80,6 @@ skills:
     progress: 66%
 
   - title: English language
-    tooltip_title: Reading/Writing/Speaking
+    tooltip_title: B1+
     tooltip_body: Conversational
     progress: 50%

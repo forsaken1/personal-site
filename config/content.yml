@@ -1,4 +1,8 @@
 other_projects:
+  - title: AnyCable Chats Prototype
+    summary: It's a small proof-of-concept with AnyCable for several projects from my job. I tried it and implemented for two projects.
+    github_link: https://github.com/forsaken1/anycable-chat-example
+
   - title: Triathlets
     summary: Application with results from triathlons. Developed with Crystal/Amber
     external_link: http://triathlets.krylov-alexey.ru

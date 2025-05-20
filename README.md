@@ -7,6 +7,11 @@ Personal page, portfolio, projects etc.
 ```
 bundle
 ruby app.rb # run in development
-thin start -s 2 -C ./config/thin.yml -R config.ru # run in production
-thin restart -C ./config/thin.yml # restart in production
+```
+
+run with Docker
+
+```
+docker build -t personal_site .
+docker run -p 3000:3000 --name personal_site personal_site:latest
 ```

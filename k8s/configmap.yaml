@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: personal-site-config
+data:
+  rack_env: "production"
+  port: "3000"
